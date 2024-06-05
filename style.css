@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 24px;
+  background-color: green
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 100px auto 250px;
+  grid-template-rows: 100px auto 100px;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  background-color: rgb(255, 213, 0);
+  }
+
+.item{
+  background-color: bisque;
+}
