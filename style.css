@@ -11,14 +11,19 @@ body{
 
 .container{
   display: grid;
-  grid-template-columns: 100px auto 250px;
-  grid-template-rows: 100px auto 100px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  gap: 24px;
   height: 500px;
   width: 500px;
   margin: 0 auto;
+  padding: 24px;
   background-color: rgb(255, 213, 0);
   }
 
-.item{
-  background-color: bisque;
-}
+  .item-1{background-color: aqua;}
+  .item-2{background-color: peru;}
+  .item-3{background-color: firebrick;}
+  .item-4{background-color: red;}
+  .item-5{background-color: rebeccapurple;}
